@@ -10,97 +10,83 @@ revelar.reveal('.front-animation',
 revelar.reveal('.front-p-animation',
     {
     duration: 1800,
-    delay:200,
     distance: '100px',
     origin: 'bottom'
 })
 revelar.reveal('.eu-animation',
     {
-    delay: 100,
     duration: 1800,
     distance: '80px',
     origin: 'right'
 })
 revelar.reveal('.textWhite-animation',
     {
-    delay:450,
     duration: 2100,
     distance: '100px',
     origin: 'left'
 })
 revelar.reveal('.textBlue-animation',
     {
-    delay:450,
     duration: 2100,
     distance: '100px',
     origin: 'right'
 })
 revelar.reveal('.p1-animation',
     {
-    delay:600,
     duration: 2100,
     distance: '100px',
     origin: 'right'
 })
 revelar.reveal('.p2-animation',
     {
-    delay:550,
     duration: 1500,
     distance: '70px',
     origin: 'left'
 })
 revelar.reveal('.p3-animation',
     {
-    delay:500,
     duration: 1500,
     distance: '70px',
     origin: 'right'
 })
 revelar.reveal('.fa-html5',
     {
-    delay:750,
     duration: 1500,
     distance: '70px',
     origin: 'left'
 })
 revelar.reveal('.fa-css3-alt',
     {
-    delay:500,
     duration: 1500,
     distance: '70px',
     origin: 'left'
 })
 revelar.reveal('.fa-js',
     {
-    delay:200,
     duration: 1500,
     distance: '70px',
     origin: 'left'
 })
 revelar.reveal('.fa-php',
     {
-    delay:200,
     duration: 1500,
     distance: '70px',
     origin: 'right'
 })
 revelar.reveal('.fa-github',
     {
-    delay:500,
     duration: 1500,
     distance: '70px',
     origin: 'right'
 })
 revelar.reveal('.fa-database',
     {
-    delay:750,
     duration: 1500,
     distance: '70px',
     origin: 'right'
 })
 revelar.reveal('.destaque-animation',
     {
-    delay:150,
     duration: 1500,
     distance: '70px',
     origin:'bottom'
@@ -109,7 +95,6 @@ revelar.reveal('.destaque-animation',
 revelar.reveal('.tituloProjeto',
     {
     duration: 1200,
-    delay:600,
     distance: '70px',
     origin:'top'
 })
@@ -129,7 +114,6 @@ revelar.reveal('.right',
 revelar.reveal('.titulo-rd',
     {
     duration: 3000,
-    delay:500,
     distance: '130px',
     origin:'bottom'
 })
@@ -169,74 +153,16 @@ revelar.reveal('.keyboard',
     distance: '130px',
     origin:'top'
 })
+revelar.reveal('.certificado-left',
+    {
+    duration: 1800,
+    distance: '100px',
+    origin:'left'
+})
+revelar.reveal('.certificado-right',
+    {
+    duration: 1800,
+    distance: '100px',
+    origin:'right'
+})
 
-function applyScrollReveal() {
-    if (window.innerWidth < 1067) {
-      ScrollReveal().reveal('.certificado-left', {
-        duration: 3500,
-        distance: '130px',
-        origin: 'left',
-        reset: true
-      });
-  
-      ScrollReveal().reveal('.certificado-right', {
-        duration: 3800,
-        distance: '130px',
-        origin: 'left',
-        reset: true
-      });
-  
-      ScrollReveal().reveal('.certificado-top', {
-        duration: 3800,
-        distance: '130px',
-        origin: 'right',
-        reset: true
-      });
-    }else if (window.innerWidth < 1615){
-        ScrollReveal().reveal('.certificado-left', {
-            duration: 3500,
-            distance: '130px',
-            origin: 'left',
-            reset: true
-          });
-      
-          ScrollReveal().reveal('.certificado-right', {
-            duration: 3800,
-            distance: '130px',
-            origin: 'bottom',
-            reset: true
-          });
-      
-          ScrollReveal().reveal('.certificado-top', {
-            duration: 3800,
-            distance: '130px',
-            origin: 'right',
-            reset: true
-          });
-    } else {
-      ScrollReveal().reveal('.certificado-left', {
-        duration: 3500,
-        distance: '130px',
-        origin: 'left',
-        reset: true 
-      });
-  
-      ScrollReveal().reveal('.certificado-right', {
-        duration: 3800,
-        distance: '130px',
-        origin: 'right',
-        reset: true
-      });
-  
-      ScrollReveal().reveal('.certificado-top', {
-        duration: 3800,
-        distance: '130px',
-        origin: 'top',
-        reset: true
-      });
-    }
-  }
-
-applyScrollReveal();
-
-window.addEventListener('resize', applyScrollReveal);
