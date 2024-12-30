@@ -365,6 +365,8 @@ video {
   font-size: 8vh;
 }
 #github-calendar-01 {
+  block-size: 15;
+  margin: 5px;
   margin-top: 20px;
   border-radius: 10px;
   background-color: #1e1e2f;
