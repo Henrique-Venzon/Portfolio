@@ -359,8 +359,8 @@ video {
   padding: 20px;
 }
 
-h1 {
-  font-size: 2.5em;
+.container-commits h1 {
+  font-size: 4em;
   color: #ffffff; 
   margin-bottom: 20px;
 }
@@ -380,18 +380,18 @@ h1 {
 }
 
 .contribution[data-level="1"] {
-  background-color: #68a9d4; 
+  background-color: #9ad6ff; 
 }
 
 .contribution[data-level="2"] {
-  background-color: #3a90d6; 
+  background-color: #5eb6ff; 
 
 .contribution[data-level="3"] {
   background-color: #0e80b4; 
 }
 
 .contribution[data-level="4"] {
-  background-color: #003f69; 
+  background-color: #074c7a; 
 }
 
 /* Animação de estrelas */
