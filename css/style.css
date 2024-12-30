@@ -356,6 +356,7 @@ video {
 .calendar-container {
   text-align: center;
   max-width: 900px;
+  height: 800px;
 }
 .calendar-container h1{
   color: #fff;
