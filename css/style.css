@@ -353,6 +353,43 @@ video {
   transition: transform 0.2s;
 }
 
+.calendar-container {
+  text-align: center;
+  max-width: 900px;
+}
+.calendar-container h1{
+  color: #fff;
+  font-size: 8vh;
+}
+#github-calendar {
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #1e1e2f;
+  color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.github-calendar .day {
+  stroke: none;
+}
+
+.github-calendar .day[data-level="1"] {
+  fill: #a8d5ff; 
+}
+
+.github-calendar .day[data-level="2"] {
+  fill: #57a7ff; 
+}
+
+.github-calendar .day[data-level="3"] {
+  fill: #005ecb;
+
+.github-calendar .day[data-level="4"] {
+  fill: #003b82; 
+}
+
+
 
 @keyframes pressDown1 {
 
