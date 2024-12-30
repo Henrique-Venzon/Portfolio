@@ -354,9 +354,14 @@ video {
 }
 
 .container-commits {
+  z-index: 1000;
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
+}
+.container-commits h1{
+  color: #fff;
+  font-size: 8vh;
 }
 
 #contributions {
