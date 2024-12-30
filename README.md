@@ -1,6 +1,6 @@
 # Portfólio Pessoal
 
-![Preview](https://via.placeholder.com/1200x400.png?text=Portf%C3%B3lio+Preview)  
+![Preview](img/preview.png)
 [**Acesse o Portfólio Online**](https://portfolio-venzon.vercel.app/)
 
 ## Sobre o Projeto
