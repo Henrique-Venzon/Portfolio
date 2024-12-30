@@ -1,15 +1,15 @@
-const username = "Henrique-Venzon"; 
+const username = "Henrique-Venzon";
 
 async function fetchContributions() {
   const response = await fetch(`https://api.github.com/users/${username}/events`);
   
   if (!response.ok) {
     console.error("Erro ao buscar os dados");
-    return;
+    return [];
   }
   
   const events = await response.json();
-  return events.filter(event => event.type === "PushEvent"); 
+  return events.filter(event => event.type === "PushEvent");
 }
 
 async function renderContributions() {

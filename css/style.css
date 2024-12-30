@@ -354,43 +354,59 @@ video {
 }
 
 .container-commits {
-  z-index: 1000;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
-  text-align: center;
+  padding: 20px;
 }
-.container-commits h1{
-  color: #fff;
-  font-size: 8vh;
+
+h1 {
+  font-size: 2.5em;
+  color: #ffffff; 
+  margin-bottom: 20px;
 }
 
 #contributions {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(7, 1fr); 
   gap: 5px;
+  justify-content: center;
 }
 
 .contribution {
-  width: 20px;
-  height: 20px;
-  background-color: #ebedf0; /* Cor padrão */
+  width: 15px;
+  height: 15px;
+  background-color: #1f1f1f; 
+  border-radius: 3px;
 }
 
 .contribution[data-level="1"] {
-  background-color: #9be9a8;
+  background-color: #68a9d4; 
 }
 
 .contribution[data-level="2"] {
-  background-color: #40c463;
-}
+  background-color: #3a90d6; 
 
 .contribution[data-level="3"] {
-  background-color: #30a14e;
+  background-color: #0e80b4; 
 }
 
 .contribution[data-level="4"] {
-  background-color: #216e39;
+  background-color: #003f69; 
 }
+
+/* Animação de estrelas */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://www.transparenttextures.com/patterns/stardust.png');
+  opacity: 0.1;
+  z-index: -1;
+}
+
 
 
 @keyframes pressDown1 {
