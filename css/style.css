@@ -353,6 +353,39 @@ video {
   transition: transform 0.2s;
 }
 
+.container-commits {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contributions {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.contribution {
+  width: 20px;
+  height: 20px;
+  background-color: #ebedf0; /* Cor padrão */
+}
+
+.contribution[data-level="1"] {
+  background-color: #9be9a8;
+}
+
+.contribution[data-level="2"] {
+  background-color: #40c463;
+}
+
+.contribution[data-level="3"] {
+  background-color: #30a14e;
+}
+
+.contribution[data-level="4"] {
+  background-color: #216e39;
+}
 
 
 @keyframes pressDown1 {
