@@ -361,7 +361,29 @@ video {
   color: #fff;
   font-size: 8vh;
 }
-
+#github-calendar-01 {
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #1e1e2f;
+  color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.github-calendar-01 .day {
+  stroke: none;
+}
+.github-calendar-01 .day[data-level="1"] {
+  fill: #a8d5ff; 
+}
+.github-calendar-01 .day[data-level="2"] {
+  fill: #57a7ff; 
+}
+.github-calendar-01 .day[data-level="3"] {
+  fill: #005ecb;
+}
+.github-calendar-01 .day[data-level="4"] {
+  fill: #003b82; 
+}
 
 
 @keyframes pressDown1 {
