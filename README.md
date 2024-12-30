@@ -1,6 +1,7 @@
 # Portfólio Pessoal
 
-[**Acesse o Portfólio Online**](https://portifolio-ecru-alpha.vercel.app)
+![Preview](https://via.placeholder.com/1200x400.png?text=Portf%C3%B3lio+Preview)  
+[**Acesse o Portfólio Online**](https://portfolio-venzon.vercel.app/)
 
 ## Sobre o Projeto
 Este é o meu portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e experiência. O site tem como objetivo funcionar como uma vitrine digital para destacar meu trabalho e facilitar a conexão com recrutadores e parceiros.
@@ -19,6 +20,6 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - ## Contato
 - **Autor**: Henrique Francisco Venzon
-- **E-mail**: [venzonhenriquef@gmail.com]
+- **E-mail**: [venzonhenriquef@gmail.com](mailto:venzonhenriquef@gmail.com)
 - [LinkedIn](https://linkedin.com/in/henrique-venzon)
 - [GitHub](https://github.com/Henrique-Venzon)
