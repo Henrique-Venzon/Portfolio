@@ -337,7 +337,7 @@ video {
 }
 
 .container-certificados {
-  margin-top: 5vh;
+  margin-top:450px;
 }
 
 .titulo-certificado {
@@ -354,11 +354,11 @@ video {
 }
 
 .calendar-container {
+  margin-top: 60px;
   position: absolute;
   z-index: 1000;
   text-align: center;
   max-width: 900px;
-  height: 800px;
 }
 .calendar-container h1{
   color: #fff;
@@ -372,23 +372,18 @@ video {
   background-color: #1e1e2f;
   color: #ffffff;
   padding: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.github-calendar-01 .day {
-  stroke: none;
+#github-calendar-01 .text-muted,
+#github-calendar-01 .contrib-streak,
+#github-calendar-01 .contrib-footer,
+#github-calendar-01 .contrib-column, 
+#github-calendar-01 .float-left {
+  display: none !important;
 }
-.github-calendar-01 .day[data-level="1"] {
-  fill: #a8d5ff; 
+.float-right{
+  margin-top: 10px;
 }
-.github-calendar-01 .day[data-level="2"] {
-  fill: #57a7ff; 
-}
-.github-calendar-01 .day[data-level="3"] {
-  fill: #005ecb;
-}
-.github-calendar-01 .day[data-level="4"] {
-  fill: #003b82; 
-}
+
 
 
 @keyframes pressDown1 {
