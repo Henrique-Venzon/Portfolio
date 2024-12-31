@@ -367,6 +367,7 @@
       }
 
 }
+
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
     .left{
         margin-left: 0;
@@ -424,4 +425,112 @@
     .skills-icons i{
         font-size: 76px;
     }
+}
+
+/* Responsividade do calendario */
+@media only screen and (min-width: 190px)and (max-width: 380px)  {
+    .ContributionCalendar-grid{
+        height: 16vh;
+      }
+      .total-commits{
+        display: none;
+      }
+      .container-meses p{
+        margin-inline: -45px;
+        font-size: 8px;
+      }
+
+      .float-right{
+        font-size: 12px;
+      }
+}
+@media only screen and (min-width: 380px)and (max-width: 550px)  {
+    .ContributionCalendar-grid{
+        height: 16vh;
+      }
+      .total-commits{
+        display: none;
+      }
+      .container-meses p{
+        margin-inline: -45px;
+        font-size: 10px;
+      }
+
+      .float-right{
+        font-size: 14px;
+      }
+}
+@media only screen and (min-width: 550px)and (max-width: 660px)  {
+    .ContributionCalendar-grid{
+        height: 16vh;
+      }
+      .total-commits{
+        margin-left: 0px;
+      }
+      .total-commits p{
+        font-size: 14.5px;
+      }
+      .container-meses p{
+        margin-top: -6px;
+        margin-inline: -45px;
+        font-size: 14px;
+      }
+
+      .float-right{
+        font-size: 14px;
+      }
+}
+@media only screen and (min-width: 660px)and (max-width: 867px)  {
+    .ContributionCalendar-grid{
+        height: 18vh;
+      }
+      .total-commits{
+        margin-left: -90px;
+      }
+      .total-commits p{
+        font-size: 16px;
+      }
+      .container-meses p{
+        margin-top: -6px;
+        margin-inline: -35px;
+        font-size: 15px;
+      }
+
+      .float-right{
+        font-size: 14px;
+      }
+}
+@media only screen and (min-width: 867px)and (max-width: 1150px)  {
+    .ContributionCalendar-grid{
+        height: 18vh;
+      }
+      .total-commits{
+        margin-left: -200px;
+      }
+      .total-commits p{
+        font-size: 20px;
+      }
+      .container-meses p{
+        margin-top: -6px;
+        margin-inline: -25px;
+        font-size: 15.5px;
+      }
+}
+@media only screen and (min-width: 1150px)and (max-width: 1399px)  {
+    .ContributionCalendar-grid{
+        height: 22vh;
+      }
+      .total-commits{
+        margin-left: -410px;
+      }
+}
+@media only screen and (min-width: 1400px)and (max-width: 1700px)  {
+    .ContributionCalendar-grid{
+        height: 26vh;
+      }
+}
+@media only screen and (min-width: 1700px)and (max-width: 2000px)  {
+    .ContributionCalendar-grid{
+        height: 39vh;
+      }
 }

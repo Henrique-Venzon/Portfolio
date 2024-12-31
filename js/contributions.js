@@ -50,3 +50,17 @@ const observer = new MutationObserver(() => {
 
 // Inicia o observador no documento inteiro
 observer.observe(document.body, { childList: true, subtree: true });
+
+const elements = document.querySelectorAll('td.ContributionCalendar-label span[aria-hidden="true"]');
+
+elements.forEach(element => {
+  // Alterar o tamanho da fonte diretamente
+  element.style.fontSize = '20pt'; // Substitua '20px' pelo tamanho desejado
+});
+
+
+document.querySelectorAll('td').forEach(td => {
+  if (td.textContent.trim() === '') {
+      td.style.display = 'none';
+  }
+});

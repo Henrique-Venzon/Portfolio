@@ -165,4 +165,16 @@ revelar.reveal('.certificado-right',
     distance: '100px',
     origin:'right'
 })
+revelar.reveal('.h1-commit',
+    {
+    duration: 1000,
+    distance: '60px',
+    origin:'bottom'
+})
+revelar.reveal('.container-calendario',
+    {
+    duration: 1000,
+    distance: '60px',
+    origin:'bottom'
+})
 

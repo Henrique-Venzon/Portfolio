@@ -60,7 +60,9 @@ body::-webkit-scrollbar-thumb {
 .keyboard,
 .certificado-top,
 .certificado-right,
-.certificado-left {
+.certificado-left,
+.h1-commit,
+.container-calendario {
   visibility: hidden;
 }
 .imagemFundo{
@@ -354,22 +356,22 @@ video {
 }
 
 .calendar-container {
+  width: 100%;
   margin-top: 60px;
   position: absolute;
   z-index: 1000;
   text-align: center;
-  max-width: 900px;
 }
 .calendar-container h1{
   color: #fff;
   font-size: 8vh;
 }
 #github-calendar-01 {
-  block-size: 15;
-  margin: 5px;
+  font-size: 20px;
+  margin: 50px;
   margin-top: 20px;
   border-radius: 10px;
-  background-color: #1e1e2f;
+  background-color: #2727275e;
   color: #ffffff;
   padding: 20px;
 }
@@ -383,9 +385,71 @@ video {
 .float-right{
   margin-top: 10px;
 }
+.ContributionCalendar-label,.sr-only{
+  margin-right: 18px;
+  padding-right: 18px;
+}
+.ContributionCalendar-day{
+  padding: 10px;
+  width: 19px;
+}
+table span,.sr-only{
+  font-size: 26px;
+  margin: -7px;
+}
+table td:hover{
+  outline: 2px solid rgb(10, 116, 255);
+}
+td.ContributionCalendar-label span[aria-hidden='true'] {
+  font-size: 14pt;
+  left: 7px;
+  text-align: center;
+}
+td:has(span) {
+  display: none;
+}
+td:not([class]) {
+  display: none;
+}
 
-
-
+.ContributionCalendar-day[data-level='1'] {
+  background-color: rgb(152, 152, 247);
+}
+.ContributionCalendar-day[data-level='2'] {
+  background-color: rgb(72, 72, 250);
+}
+.ContributionCalendar-day[data-level='3'] {
+  background-color: rgb(14, 14, 148);
+}
+.ContributionCalendar-day[data-level='4'] {
+  background-color: rgb(0, 0, 66);
+}
+.total-commits{
+  margin-top: -90px;
+  margin-left: -500px;
+}
+.total-commits p{
+  color: #fff;
+  font-size: 26px;
+}
+.ContributionCalendar-grid{
+  height: 30vh;
+}
+.container-meses{
+  margin-top: 20px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-meses p{
+  margin-top: -6px;
+  margin-inline: -15px;
+  text-align: center;
+  margin-bottom: -90px;
+  color: #fff;
+  font-size: 21px;
+}
 @keyframes pressDown1 {
 
   30%,
