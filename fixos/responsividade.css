@@ -443,6 +443,9 @@
       .float-right{
         font-size: 12px;
       }
+      .container-certificados {
+        margin-top:450px;
+      }
 }
 @media only screen and (min-width: 380px)and (max-width: 550px)  {
     .ContributionCalendar-grid{
@@ -458,6 +461,9 @@
 
       .float-right{
         font-size: 14px;
+      }
+      .container-certificados {
+        margin-top:450px;
       }
 }
 @media only screen and (min-width: 550px)and (max-width: 660px)  {
