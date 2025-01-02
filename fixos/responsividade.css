@@ -490,7 +490,7 @@
 }
 @media only screen and (min-width: 660px)and (max-width: 867px)  {
     .ContributionCalendar-grid{
-        height: 18vh;
+        height: 350px;
       }
       .total-commits{
         margin-left: -90px;
@@ -503,7 +503,9 @@
         margin-inline: -35px;
         font-size: 15px;
       }
-
+      .container-certificados {
+        margin-top:750px;
+      }
       .float-right{
         font-size: 14px;
       }
@@ -539,6 +541,9 @@
 }
 @media only screen and (min-width: 1700px)and (max-width: 2000px)  {
     .ContributionCalendar-grid{
-        height: 39vh;
+        height: 550px;
+      }
+      .container-certificados {
+        margin-top:800px;
       }
 }
