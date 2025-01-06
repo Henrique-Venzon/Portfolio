@@ -413,10 +413,10 @@ td:not([class]) {
 }
 
 .ContributionCalendar-day[data-level='1'] {
-  background-color: rgb(150, 230, 255);
+  background-color: rgb(184, 238, 255);
 }
 .ContributionCalendar-day[data-level='2'] {
-  background-color: rgb(105, 200, 255);
+  background-color: rgb(50, 175, 248);
 }
 .ContributionCalendar-day[data-level='3'] {
   background-color: #1763d4;
