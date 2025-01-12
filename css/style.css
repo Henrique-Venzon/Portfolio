@@ -45,12 +45,12 @@ body::-webkit-scrollbar-thumb {
 .tituloProjeto,
 .left,
 .right,
-.fa-html5,
-.fa-css3-alt,
-.fa-js,
-.fa-php,
-.fa-github,
-.fa-database,
+.html,
+.css,
+.js,
+.php,
+.github,
+.database,
 .titulo-rd,
 #instragam,
 #whatsapp,
@@ -62,7 +62,8 @@ body::-webkit-scrollbar-thumb {
 .certificado-right,
 .certificado-left,
 .h1-commit,
-.container-calendario {
+.container-calendario,
+.button-1 {
   visibility: hidden;
 }
 .imagemFundo{
@@ -101,8 +102,8 @@ video {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 34%;
-  height: 94%; 
+  width: 27%;
+  height: 100%; 
 }
 
 .overlay {
@@ -110,8 +111,8 @@ video {
   bottom: 0;
   right: 0;
   width: 29%;
-  height: 5vh;
-  background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  height: 40vh;
+  background: linear-gradient(to top, rgb(0, 0, 0),#0000009c, rgba(0, 0, 0, 0));
   z-index: 6; 
 }
 
@@ -234,36 +235,46 @@ video {
   display: flex;
   justify-content: center;
 }
-
-.skills-icons i {
-  color: #ffffff;
+.icone-skiil{
+  z-index: 9999;
   margin: 10px 50px;
-  font-size: 64px;
+  display: flex;
+  flex-direction: column;
+}
+.icone-skiil p{
+  margin-top: 8px;
+  font-size: 20PX;
+  color: #fff;
+}
+.skills-icons i {
+  font-size: 60px;
+  color: #ffffff;
   transition: 0.3s ease-in-out;
 }
 
 .skills-icons .fa-html5:hover {
   color: #e34f26;
+  transform: scale(1.1);
 }
 
 .skills-icons .fa-css3-alt:hover {
   color: #1572b6;
+  transform: scale(1.1);
 }
 
 .skills-icons .fa-js:hover {
   color: #f7df1e;
-}
-
-.skills-icons .fa-node:hover {
-  color: #339933;
+  transform: scale(1.1);
 }
 
 .skills-icons .fa-php:hover {
   color: #777bb4;
+  transform: scale(1.1);
 }
 
 .skills-icons .fa-database:hover {
   color: #dada00;
+  transform: scale(1.1);
 }
 
 .container-projetos {
@@ -277,7 +288,7 @@ video {
 
 .div-titulo {
   margin-top: 5vh;
-  margin-bottom: 13.5vh;
+  margin-bottom: 20vh;
   height: 8vh;
   display: block;
   position: relative;
@@ -413,7 +424,7 @@ td:not([class]) {
 }
 
 .ContributionCalendar-day[data-level='1'] {
-  background-color: rgb(184, 238, 255);
+  background-color: rgb(167, 195, 255);
 }
 .ContributionCalendar-day[data-level='2'] {
   background-color: rgb(50, 175, 248);
@@ -684,7 +695,10 @@ td:not([class]) {
 }
 
 .container-rede-sociais {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 9vh;
+  width: 100%;
   margin-top: 12vh;
 }
 
@@ -732,6 +746,7 @@ svg text {
 
 .rede-sociais {
   margin-top: 7vh;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -745,9 +760,9 @@ svg text {
   position: relative;
   z-index: 0;
   display: flex;
+  margin-inline: 85px;
   align-items: center;
   justify-content: center;
-  margin-left: 100px;
   transition: 0.1s;
 }
 
@@ -817,12 +832,15 @@ svg text {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 4vh;
+  height: 10vh;
+  margin-bottom: 12vh;
+  margin-top: 15vh;
 }
 
 
 .button-1 {
-  position: relative;
+  position: absolute;
+  z-index: 10000;
   transition: all 0.3s ease-in-out;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   padding-block: 0.9rem;
@@ -864,6 +882,7 @@ svg text {
 .button-1::before {
   content: "";
   position: absolute;
+  z-index: 10000;
   width: 100px;
   height: 100%;
   background-image: linear-gradient(

@@ -1,4 +1,3 @@
-
 window.revelar = ScrollReveal({reset:true})
 
 revelar.reveal('.front-animation',
@@ -49,37 +48,37 @@ revelar.reveal('.p3-animation',
     distance: '70px',
     origin: 'right'
 })
-revelar.reveal('.fa-html5',
+revelar.reveal('.html',
     {
     duration: 1500,
     distance: '70px',
     origin: 'left'
 })
-revelar.reveal('.fa-css3-alt',
+revelar.reveal('.css',
     {
     duration: 1500,
     distance: '70px',
     origin: 'left'
 })
-revelar.reveal('.fa-js',
+revelar.reveal('.js',
     {
     duration: 1500,
     distance: '70px',
     origin: 'left'
 })
-revelar.reveal('.fa-php',
+revelar.reveal('.php',
     {
     duration: 1500,
     distance: '70px',
     origin: 'right'
 })
-revelar.reveal('.fa-github',
+revelar.reveal('.github',
     {
     duration: 1500,
     distance: '70px',
     origin: 'right'
 })
-revelar.reveal('.fa-database',
+revelar.reveal('.database',
     {
     duration: 1500,
     distance: '70px',
@@ -176,5 +175,11 @@ revelar.reveal('.container-calendario',
     duration: 1000,
     distance: '60px',
     origin:'bottom'
+})
+revelar.reveal('.button-1',
+    {
+    duration: 1000,
+    distance: '60px',
+    origin:'top'
 })
 
