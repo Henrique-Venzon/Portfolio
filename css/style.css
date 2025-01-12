@@ -890,3 +890,30 @@ svg text {
     left: 100%;
   }
 }
+
+.language-switch {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  z-index: 1000;
+}
+
+.language-switch button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.language-switch img {
+  width: 60px;
+  height: 40px;
+  border-radius: 5%;
+  transition: transform 0.2s ease;
+}
+
+.language-switch img:hover {
+  transform: scale(1.1);
+}
+

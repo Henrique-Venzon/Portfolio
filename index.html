@@ -47,7 +47,7 @@
       <div id="particles-js"></div>
         <div class="apresentacao" >
             <div class="eu">
-                <h1 class="front-animation">Desenvolverdor Web</h1>
+                <h1 id="title-job" class="front-animation">Desenvolverdor Web</h1>
                 <p class="front-p-animation"> < Henrique Fransciso Venzon /> </p>
             </div>
             <img class="euImg eu-animation" src="img/euHD.png" alt="minhaImagem" fetchpriority="high" draggable="false">
@@ -57,12 +57,12 @@
         <div class="container_sobre">
             <div class="textSobre">
                 <div class="marginText">
-                    <h1 class="textWhite textWhite-animation">SOBRE</h1>
-                    <h1 class="textBlue textBlue-animation">MIM</h1>
+                    <h1 id="aboutmetitle" class="textWhite textWhite-animation">SOBRE</h1>
+                    <h1 id="aboutmetitle_2" class="textBlue textBlue-animation">MIM</h1>
                 </div>
             </div>
             <div class="contexto-eu">
-              <p class="p1-animation">Olá, sou Henrique Venzon, estudante de Engenharia de Software e formado no curso Técnico em Desenvolvimento de Sistemas pelo SENAI em Itajaí, Santa Catarina. Com 18 anos, nascido em Jaraguá do Sul e atualmente morando em Itajaí, tenho me dedicado ao aprendizado contínuo de tecnologias web e ao desenvolvimento de soluções inovadoras na área de programação.</p>
+              <p id="aboutmetext_1" class="p1-animation">Olá, sou Henrique Venzon, estudante de Engenharia de Software e formado no curso Técnico em Desenvolvimento de Sistemas pelo SENAI em Itajaí, Santa Catarina. Com 18 anos, nascido em Jaraguá do Sul e atualmente morando em Itajaí, tenho me dedicado ao aprendizado contínuo de tecnologias web e ao desenvolvimento de soluções inovadoras na área de programação.</p>
 
               <p class="p2-animation">Ao longo da minha formação, adquiri habilidades em HTML, CSS, JavaScript, PHP e MySQL, além de estar aprendendo React e Java. Essas competências me permitem criar aplicações completas, unindo front-end atrativo e funcional ao back-end eficiente. Essa visão ampla dos sistemas me capacita a atuar com versatilidade e eficiência em diversos tipos de projetos.</p>
               
@@ -284,13 +284,22 @@
               ></path>
             </svg>
           </button>
-                  </div>
+        </div>
+
+        <div class="language-switch">
+          <button id="language-button">
+            <img id="language-flag" src="img/bandeira-brasil.webp" alt="Idioma Atual" />
+          </button>
+        </div>
+        
+        <!--importação dos js-->
         <script src="js/curriculo.js"></script>
         <script src="js/rede-social.js"></script>
         <script src="js/contributions.js"></script>
         <script src="js/hiperslinks.js"></script>
         <script src="js/particles.min.js"></script>
         <script src="js/particles.js"></script>
+        <script src="js/lang-switch.js" defer></script>
         <script type ="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

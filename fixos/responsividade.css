@@ -293,6 +293,7 @@
         border-radius: 50px;
       }
 }
+
 @media only screen and (min-width: 821px) and (max-width: 1025px) {
     .euImg,.eu-animation {
         display: none;
@@ -395,6 +396,7 @@
     .button {
         margin-left: 80px;
       }
+      
   }
 
 @media only screen and (min-width: 1441px) {
@@ -402,14 +404,14 @@
         font-size: 52px;
     }
     .textWhite{
-    margin-left: -85px;
-    font-size: 172px;
+    margin-left: -65px;
+    font-size: 9.5vw;
     text-shadow: 7px 7px 9px #020096d8;
     }
     .textBlue{
         margin-top: -87px;
         margin-left: 335px;
-        font-size: 164px;
+        font-size: 10.5vw;
         text-shadow: 5px 5px 10px #ffffff8f;
     }
     .tituloProjeto{
