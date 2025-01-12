@@ -543,9 +543,9 @@
 }
 @media only screen and (min-width: 1700px)and (max-width: 2000px)  {
     .ContributionCalendar-grid{
-        height: 550px;
+        height: 320px;
       }
       .container-certificados {
-        margin-top:800px;
+        margin-top:680px;
       }
 }
