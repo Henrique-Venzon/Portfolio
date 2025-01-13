@@ -453,7 +453,18 @@
         font-size: 76px;
     }
 }
+@media only screen and (min-width: 1640px) {
 
+.euImg {
+  width: 32%;
+  height: 100%; 
+}
+
+.overlay {
+  width: 349%;
+  height: 40vh;
+}
+}
 /* Responsividade do calendario */
 @media only screen and (min-width: 190px)and (max-width: 380px)  {
     .ContributionCalendar-grid{
