@@ -85,7 +85,7 @@
         width: 40px;
         height: 40px;
         border-radius: 50px;
-        margin-left: 14px;
+        margin-inline: 9px;
       }
       .rede-sociais {
         margin-top: 0vh;
@@ -141,12 +141,12 @@
         font-size: 65px;
     }
     .container_sobre{
-        height: 100vh;
+        height: 95vh;
         flex-direction: column;
         display: flex;
     }
     .textSobre{
-        margin-top: -17vh;
+        margin-top: -30vh;
         width: 100%;
         height: 100%;
     }
@@ -201,7 +201,7 @@
         width: 45px;
         height: 45px;
         border-radius: 50px;
-        margin-left: 20px;
+        margin-inline: 14px;
       }
       .rede-sociais {
         margin-top: 0vh;
