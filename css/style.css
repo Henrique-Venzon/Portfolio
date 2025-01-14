@@ -345,7 +345,10 @@ video {
 
 #link-page,
 #code-monet,
-#logconnect {
+#logconnect,
+.link_en,
+.code-monet-en,
+.logconnect_en {
   cursor: pointer;
 }
 
@@ -390,8 +393,9 @@ video {
 #github-calendar-01 .contrib-streak,
 #github-calendar-01 .contrib-footer,
 #github-calendar-01 .contrib-column, 
-#github-calendar-01 .float-left {
-  display: none !important;
+#github-calendar-01 .float-left,
+#github-calendar-01 .float-right {
+  display: none ;
 }
 .float-right{
   margin-top: 10px;
@@ -424,10 +428,10 @@ td:not([class]) {
 }
 
 .ContributionCalendar-day[data-level='1'] {
-  background-color: rgb(167, 195, 255);
+  background-color: #a7c3ff;
 }
 .ContributionCalendar-day[data-level='2'] {
-  background-color: rgb(50, 175, 248);
+  background-color: #32aff8;
 }
 .ContributionCalendar-day[data-level='3'] {
   background-color: #1763d4;
@@ -460,6 +464,32 @@ td:not([class]) {
   margin-bottom: -90px;
   color: #fff;
   font-size: 21px;
+}
+.legenda-commits{
+  display: flex;
+  align-items: center;
+  margin-top: -27px;
+  margin-left: 62vw;
+  color: #fff;
+  font-size: 22px;
+}
+.cor{
+  height: 14px;
+  width: 14px;
+  margin-inline: 12px;
+  border: 1px solid #fff;
+}
+.cor-nada{
+  background-color: #a7c3ff;
+}
+.cor-baixa{
+  background-color: #32aff8;
+}
+.cor-media{
+  background-color: #1763d4;
+}
+.cor-alta{
+  background-color: #0e0e94;
 }
 @keyframes pressDown1 {
 

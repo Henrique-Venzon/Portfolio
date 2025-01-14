@@ -28,6 +28,8 @@ const translations = {
       keyboard_2: "O",
       midia_en: "REDES SOCIAIS",
       curriculo_en: "CURRÍCULO",
+      less: "Menos",
+      more: "Mais",
       },
     "en-US": {
       titleJob: "Web Developer",
@@ -58,6 +60,8 @@ const translations = {
       keyboard_2: "E",
       midia_en: "SOCIAL MEDIA",
       curriculo_en: "CURRICULOM",
+      less: "Less",
+      more: "More",
     },
   };
   
@@ -93,6 +97,8 @@ const translations = {
       keyboard_2: document.getElementById("keyboard_2"),
       midia_en: document.getElementById("midia-en"),
       curriculo_en: document.getElementById("curriculo_en"),
+      less: document.getElementById("less"),
+      more: document.getElementById("more"),
     };
   
     const translationsForLang = translations[lang];

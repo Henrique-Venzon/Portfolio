@@ -425,9 +425,7 @@
   }
 
 @media only screen and (min-width: 1441px) {
-    header h1{
-        font-size: 52px;
-    }
+
     .textWhite{
     margin-left: -65px;
     font-size: 9.5vw;
@@ -471,7 +469,10 @@
         height: 16vh;
       }
       .total-commits{
-        display: none;
+        margin-left: 0vw;
+      }
+      .total-commits p{
+        font-size: 14px;
       }
       .container-meses p{
         margin-inline: -45px;
@@ -485,33 +486,62 @@
       .calendar-container h1{
         font-size: 6vh;
       }
+      .legenda-commits{
+        margin-top: -60px;
+        margin-left: 26vw;
+        font-size: 14px;
+      }
+      .cor{
+        height: 8px;
+        width: 8px;
+        margin-inline: 7px;
+      }
+      #github-calendar-01 {
+        padding: 20px;
+        padding-bottom: 70px;
+      }
 }
 @media only screen and (min-width: 380px)and (max-width: 550px)  {
     .ContributionCalendar-grid{
         height: 16vh;
       }
       .total-commits{
-        display: none;
+        margin-left: 0vw;
+      }
+      .total-commits p{
+        font-size: 14px;
       }
       .container-meses p{
         margin-inline: -45px;
         font-size: 10px;
       }
-
+      #github-calendar-01 {
+        padding: 20px;
+        padding-bottom: 70px;
+      }
       .float-right{
         font-size: 14px;
       }
       .calendar-container h1{
         font-size: 6vh;
       }
-
+      .legenda-commits{
+        margin-top: -60px;
+        margin-left: 32vw;
+        font-size: 14px;
+      }
+      .cor{
+        height: 8px;
+        width: 8px;
+        margin-inline: 7px;
+      }
 }
 @media only screen and (min-width: 550px)and (max-width: 660px)  {
     .ContributionCalendar-grid{
         height: 16vh;
       }
       .total-commits{
-        margin-left: 0px;
+        margin-left: -240px;
       }
       .total-commits p{
         font-size: 14.5px;
@@ -525,13 +555,23 @@
       .float-right{
         font-size: 14px;
       }
+      .legenda-commits{
+        margin-top: -18px;
+        margin-left: 54vw;
+        font-size: 16px;
+      }
+      .cor{
+        height: 10px;
+        width: 10px;
+        margin-inline: 8px;
+      }
 }
 @media only screen and (min-width: 660px)and (max-width: 867px)  {
     .ContributionCalendar-grid{
-        height: 350px;
-      }
+      height: 22vh;
+    }
       .total-commits{
-        margin-left: -90px;
+        margin-left: -360px;
       }
       .total-commits p{
         font-size: 16px;
@@ -547,13 +587,23 @@
       .float-right{
         font-size: 14px;
       }
+      .legenda-commits{
+        margin-top: -18px;
+        margin-left: 60vw;
+        font-size: 17px;
+      }
+      .cor{
+        height: 10px;
+        width: 10px;
+        margin-inline: 10px;
+      }
 }
 @media only screen and (min-width: 867px)and (max-width: 1150px)  {
     .ContributionCalendar-grid{
         height: 18vh;
       }
       .total-commits{
-        margin-left: -200px;
+        margin-left: -350px;
       }
       .total-commits p{
         font-size: 20px;
@@ -562,6 +612,16 @@
         margin-top: -6px;
         margin-inline: -25px;
         font-size: 15.5px;
+      }
+      .legenda-commits{
+        margin-top: -27px;
+        margin-left: 62vw;
+        font-size: 17px;
+      }
+      .cor{
+        height: 11px;
+        width: 11px;
+        margin-inline: 11px;
       }
 }
 @media only screen and (min-width: 1150px)and (max-width: 1399px)  {
