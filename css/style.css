@@ -289,6 +289,9 @@ video::-webkit-media-controls-fullscreen-button {
   color: #777bb4;
   transform: scale(1.1);
 }
+.skills-icons .fa-github:hover {
+  transform: scale(1.1);
+}
 
 .skills-icons .fa-database:hover {
   color: #dada00;
