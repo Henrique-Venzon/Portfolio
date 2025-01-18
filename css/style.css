@@ -86,7 +86,17 @@ video {
   z-index: -1;
   filter: brightness(.8);
 }
+video::-webkit-media-controls {
+  display: none;
+}
 
+video::-webkit-media-controls-enclosure {
+  display: none;
+}
+
+video::-webkit-media-controls-start-playback-button {
+  display: none;
+}
 #particles-js {
   background-color: transparent;
   opacity: .7;
