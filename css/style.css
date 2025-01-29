@@ -6,7 +6,10 @@
   list-style: none;
   text-decoration: none;
 }
-
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+}
 img {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -143,7 +146,7 @@ video::-webkit-media-controls-fullscreen-button {
 }
 
 .eu h1 {
-  color: #ffffff;
+  color: var(--color-white);
   font-size: 4rem;
   font-weight: 200;
   text-shadow: 0.3rem 0.4rem 2px rgba(61, 61, 61, 0.4);
@@ -153,7 +156,7 @@ video::-webkit-media-controls-fullscreen-button {
 }
 
 .eu p {
-  color: #ffffff;
+  color: var(--color-white);
   font-size: 2.5rem;
   text-shadow: 0.2rem 0.2rem rgba(49, 49, 49, 0.4);
   margin-bottom: 2rem;
@@ -184,7 +187,7 @@ video::-webkit-media-controls-fullscreen-button {
 .textWhite {
   margin-left: -50px;
   font-size: 102px;
-  color: #fff;
+  color: var(--color-white);
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-shadow: 6px 6px 8px #115fc4;
 }
@@ -213,7 +216,7 @@ video::-webkit-media-controls-fullscreen-button {
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
-  color: #fff;
+  color: var(--color-white);
   font-size: 19px;
 }
 
@@ -262,11 +265,11 @@ video::-webkit-media-controls-fullscreen-button {
 .icone-skiil p{
   margin-top: 8px;
   font-size: 20PX;
-  color: #fff;
+  color: var(--color-white);
 }
 .skills-icons i {
   font-size: 60px;
-  color: #ffffff;
+  color: var(--color-white);
   transition: 0.3s ease-in-out;
 }
 
@@ -316,7 +319,7 @@ video::-webkit-media-controls-fullscreen-button {
 }
 
 .tituloProjeto {
-  color: #ffffff;
+  color: var(--color-white);
   text-shadow: 6px 6px 8px #020096d8;
   font-size: 100px;
   text-align: center;
@@ -351,7 +354,7 @@ video::-webkit-media-controls-fullscreen-button {
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-top: -10vh;
   font-size: 100px;
-  color: #fff;
+  color: var(--color-white);
   text-shadow: 0 0 10px black,
     0 0 25px #000;
 }
@@ -359,7 +362,7 @@ video::-webkit-media-controls-fullscreen-button {
 .text-projeto p {
   margin-top: -1.2vh;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: #fff;
+  color: var(--color-white);
   font-size: 40px;
   text-shadow: 0 0 10px black;
 }
@@ -379,11 +382,11 @@ video::-webkit-media-controls-fullscreen-button {
 
 .titulo-certificado {
   text-align: center;
-  color: #fff;
+  color: var(--color-white);
 }
 
 .key {
-  color: #fff;
+  color: var(--color-white);
   font-size: 11vw;
   display: inline-block;
   letter-spacing: -0.1vw;
@@ -398,7 +401,7 @@ video::-webkit-media-controls-fullscreen-button {
   text-align: center;
 }
 .calendar-container h1{
-  color: #fff;
+  color: var(--color-white);
   font-size: 8vh;
 }
 #github-calendar-01 {
@@ -407,7 +410,7 @@ video::-webkit-media-controls-fullscreen-button {
   margin-top: 20px;
   border-radius: 10px;
   background-color: #2727275e;
-  color: #ffffff;
+  color: var(--color-white);
   padding: 20px;
 }
 #github-calendar-01 .text-muted,
@@ -465,7 +468,7 @@ td:not([class]) {
   margin-left: -500px;
 }
 .total-commits p{
-  color: #fff;
+  color: var(--color-white);
   font-size: 26px;
 }
 .ContributionCalendar-grid{
@@ -483,7 +486,7 @@ td:not([class]) {
   margin-inline: -15px;
   text-align: center;
   margin-bottom: -90px;
-  color: #fff;
+  color: var(--color-white);
   font-size: 21px;
 }
 .legenda-commits{
@@ -491,14 +494,14 @@ td:not([class]) {
   align-items: center;
   margin-top: -27px;
   margin-left: 62vw;
-  color: #fff;
+  color: var(--color-white);
   font-size: 22px;
 }
 .cor{
   height: 14px;
   width: 14px;
   margin-inline: 12px;
-  border: 1px solid #fff;
+  border: 1px solid var(--color-white);
 }
 .cor-nada{
   background-color: #a7c3ff;
@@ -818,7 +821,7 @@ svg text {
 }
 
 .button svg {
-  color: white;
+  color:var(--color-white);
   width: 70px;
   height: 70px;
   z-index: 9;
@@ -901,7 +904,7 @@ svg text {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ffff;
+  color: var(--color-white);
   gap: 10px;
   font-weight: bold;
   border: 3px solid #ffffff4d;
