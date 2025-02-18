@@ -455,7 +455,7 @@
 
 .euImg {
   width: 27%;
-  height: 85%; 
+  object-fit: cover;
 }
 
 .overlay {
