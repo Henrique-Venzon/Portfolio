@@ -971,6 +971,8 @@ svg text {
   background: none;
   border: none;
   z-index: 1000;
+  opacity: 0;
+  animation: fadeInButton 2s ease-in-out forwards;
 }
 
 .language-switch button {
@@ -990,3 +992,11 @@ svg text {
   transform: scale(1.1);
 }
 
+@keyframes fadeInButton {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
